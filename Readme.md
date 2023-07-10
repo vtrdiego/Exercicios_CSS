@@ -1,0 +1,1 @@
+Repositório contendo exercícios que utilizam HTML e CSS juntos.

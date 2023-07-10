@@ -1,0 +1,33 @@
+form{
+	width:500px;
+	margin:auto /* O navegador calcula as margens automaticamente */
+}
+
+legend{
+	color:#1979FF;
+	font-size:12px;
+	font-family:Castellar Regular;
+	font-weight:bold
+}
+
+#usuario{
+	background-image:url('usuario.jpg');
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-size:150px;
+	border:grey double; /* solid, outside, groove, inset*/
+	border-width:5px;
+	/*border-style:dotted dashed double solid;
+	border-color:pink green*/
+	border-radius:30px;
+}
+
+#sexo{
+	width:267px;
+	border-color:grey;
+	border: double;
+}
+
+input:hover{
+	background-color:#CECECE;
+}

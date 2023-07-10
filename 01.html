@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula 7 </title>
+</head>
+<body>
+	<form method="GET" action="aula7.py">
+		<fieldset><legend>Cadastro Aluno</legend>
+		<h4>Área de interesee</h4>
+		<label for='a'><input type='checkbox' name='area' id='a' checked/>Esporte
+		<label for='a'><input type='checkbox' name='area' id='a'/>Lazer
+		<label for='a'><input type='checkbox' name='area' id='a'/>Cultura
+		<label for='a'><input type='checkbox' name='area' id='a'/>Tecnologia
+		<label for='a'><input type='checkbox' name='area' id='a'/>Entretenimento
+
+		<h4>Comentário</h4>
+		<textarea rows=10 cols=30 maxlength=260 placeholder='até 260 caracteres'></textarea>
+
+		<p>Estado</p>
+		<select>
+			<option>Acre</option>
+			<option>Alagoas</option>
+			<option>Amapá</option>
+			<option>Amazonas</option>
+			<option>Bahia</option>
+			<option>Ceara</option>
+			<option>Rio de Janeiro</option>
+			<option>São Paulo</option>
+		</select></p>
+		
+		<p><input type='reset' value='Limpar' />
+		<input type='submit' value='Enviar' />
+		<input type='button' value='Calcular' /></p>
+		
+		
+
+</fieldset>
+</form>
+</body>
+</html>
+<!--
+fieldset - agrupamento de dados
+legend - legenda do fieldset
+checkbox() - seleção multipla 
+checked - para já deixar habilitado o check
+textarea - para criar uma caixa de texto
+rows - para definir o tamanho da caixa de texto usando a linha
+cols - para definir o tamanho da caixa de texto usando a coluna
+select - para selecionar elementos dentro de uma lista
+option - para criar os tópicos da lista
+reset - botão para limpar 
+submit - botão para submeter os dados
+button - para criar um botão
+-->

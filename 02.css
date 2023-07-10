@@ -1,0 +1,40 @@
+#left-a{
+	left:0;
+	top:0;
+	position:absolute;
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background-color:red;
+	font-size:30px
+}
+#right-b{
+	right:0;
+	top:0;
+	position:absolute;
+	width:200px;
+	height:200px;
+	float:right;
+	background-color:yellow;
+	font-size:30px
+}
+#left-c{
+	left:0;
+	position:absolute;
+	bottom:0;
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background-color:green;
+	display:inline-block;
+	font-size:30px
+}
+#right-d{
+	right:0;
+	position:absolute;
+	bottom:0;
+	width:200px;
+	height:200px;
+	background-color:blue;
+	font-size:30px
+}

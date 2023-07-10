@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title> Aula 8 </title>
+<link rel="stylesheet" href="03.css">
+
+</head>
+<body>
+	<form method='Post' action='aula8.py'>
+		<fieldset id='usuario'><legend>Cadastro Aluno</legend>
+		<p><label for='nome'>Nome:<input type='text' id='nome'size=20 /></p>
+		<p><label for='senha'>Senha:<input type='password' id='senha'size=20 maxlength=8 placeholder='8 digitos' required/></p>
+		<p><label for='email'>e_mail:<input type='text' id='email'size=20 /></p>
+		<fieldset id='sexo'><legend>Sexo</legend>
+		<p><label for='sexo1'><input type='radio' id='sexo1' name='sexo' />Feminino
+		   <label for='sexo2'><input type='radio' id='sexo2' name='sexo' />Masculino</p>
+		</fieldset>
+		<p><label for='nasc'>Data_Nasc:<input type='date' id='nasc' />
+		</fieldset>
+		</form>
+	
+</body>
+</html>
